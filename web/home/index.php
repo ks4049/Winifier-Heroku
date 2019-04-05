@@ -2,10 +2,10 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>Home</title>       
-        <?php 
+        <title>Home</title>
+        <?php
         include "header/header.php";
-        ?> 
+        ?>
     </head>
 
     <body>
@@ -17,22 +17,45 @@
             <div class="container-fluid">
 
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-4">
 
                         <div class="card-box">
 
-                            <h4 class="header-title m-t-0 m-b-30">Block Button</h4>
+                            <h4 class="header-title m-t-0 m-b-30">New Project</h4>
 
                             <p class="text-muted m-b-15 font-13">
-                                Create block level buttons,with by adding add <code>.btn-block</code>.
+                                Create your own custom model with exisiting or supplied dataset, learning how the process works!.
                             </p>
-
-                            <button type="button" class="btn btn-block btn--md btn-pink waves-effect waves-light">Block Button</button>
-                            <button type="button" class="btn btn-block btn-sm btn-success waves-effect waves-light">Block Button</button>
-                            <button type="button" class="btn btn-block btn-xs btn-purple waves-effect waves-light">Block Button</button>
+                            <button type="button" class="btn btn-block btn-xs btn-purple waves-effect waves-light">Start Now</button>
 
                         </div>
+                      </div>
+                        <div class="col-md-4">
 
+                            <div class="card-box">
+
+                                <h4 class="header-title m-t-0 m-b-30">Testing / Evaluating</h4>
+
+                                <p class="text-muted m-b-15 font-13">
+                                    Test against an existing model you or someone else created!.
+                                </p>
+                                <button type="button" class="btn btn-block btn-xs btn-purple waves-effect waves-light">Test Now</button>
+
+                            </div>
+                          </div>
+                            <div class="col-md-4">
+
+                                <div class="card-box">
+
+                                    <h4 class="header-title m-t-0 m-b-30">Information Retrieval</h4>
+
+                                    <p class="text-muted m-b-15 font-13">
+                                        Retrieve reviews based on keywords and or filters. Filter further with visualized word cloud!
+                                    </p>
+                                    <button type="button" class="btn btn-block btn-xs btn-purple waves-effect waves-light">Search Now</button>
+
+                                </div>
+                              </div>
                     </div>
                     <!-- end col -->
                 </div>
@@ -116,8 +139,8 @@
 
         </div>
         <!-- end wrapper -->
-        <?php 
+        <?php
        include "footer/footer.php";
-       ?> 
+       ?>
     </body>
 </html>
