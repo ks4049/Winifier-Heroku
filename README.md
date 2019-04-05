@@ -1,28 +1,18 @@
-# php-getting-started
+# Winifer Heroku Connect!
 
-A barebones PHP app that makes use of the [Silex](http://silex.sensiolabs.org/) web framework, which can easily be deployed to Heroku.
+This repository manages the server side scripts for the web integration of the winifier repository. 
 
-This application supports the [Getting Started with PHP on Heroku](https://devcenter.heroku.com/articles/getting-started-with-php) article - check it out.
+The application has been deployed using Heroku. 
 
-## Deploying
+Link to the Winifier Repository: [Winifier](https://github.com/nirbhayph/Winifier)
 
-Install the [Heroku Toolbelt](https://toolbelt.heroku.com/).
-
-```sh
-$ git clone git@github.com:heroku/php-getting-started.git # or clone your own fork
-$ cd php-getting-started
-$ heroku create
-$ git push heroku master
-$ heroku open
-```
-
-or
-
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+Authors: 
+- @ks4049
+- @dhirensc
+- @nirbhayph
 
 ## Documentation
 
-For more information about using PHP on Heroku, see these Dev Center articles:
+For more information about using Winifier, see the ReadMe file on Winifier: [ReadMe](https://github.com/nirbhayph/Winifier/blob/checkpoint3/README.md)
 
-- [Getting Started with PHP on Heroku](https://devcenter.heroku.com/articles/getting-started-with-php)
-- [PHP on Heroku](https://devcenter.heroku.com/categories/php)
+
