@@ -2,16 +2,16 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>Data</title>        
-        <?php 
+        <title>Data</title>
+        <?php
         include "../header/header.php";
-        ?>        
+        ?>
     </head>
 
     <body>
-        <?php 
+        <?php
         include "../header/navigation.php";
-        ?>  
+        ?>
         <div class="wrapper">
             <div class="container-fluid">
 
@@ -164,10 +164,10 @@
             <!-- /Right-bar -->
 
         </div>
-        <!-- end wrapper -->            
-       <?php 
+        <!-- end wrapper -->
+       <?php
        include "../footer/footer.php";
-       ?> 
+       ?>
     </body>
 
 </html>

@@ -7,7 +7,6 @@
         include "header/header.php";
         ?>
     </head>
-
     <body>
         <?php
         include "header/navigation.php";
@@ -23,8 +22,8 @@
 
                             <h4 class="header-title m-t-0 m-b-30">New Project</h4>
 
-                            <p class="text-muted m-b-15 font-13">
-                                Create your own custom model with exisiting or supplied dataset, learning how the process works!.
+                            <p class="text-muted m-b-15 font-15">
+                                <center>Create your own custom model with exisiting or supplied dataset, learning how the process works!</center>
                             </p>
                             <button type="button" class="btn btn-block btn-xs btn-purple waves-effect waves-light">Start Now</button>
 
@@ -36,8 +35,8 @@
 
                                 <h4 class="header-title m-t-0 m-b-30">Testing / Evaluating</h4>
 
-                                <p class="text-muted m-b-15 font-13">
-                                    Test against an existing model you or someone else created!.
+                                <p class="text-muted m-b-15 font-15">
+                                    <center>Test against an existing model you or someone else created. Evaluate different model results too!</center>
                                 </p>
                                 <button type="button" class="btn btn-block btn-xs btn-purple waves-effect waves-light">Test Now</button>
 
@@ -49,8 +48,8 @@
 
                                     <h4 class="header-title m-t-0 m-b-30">Information Retrieval</h4>
 
-                                    <p class="text-muted m-b-15 font-13">
-                                        Retrieve reviews based on keywords and or filters. Filter further with visualized word cloud!
+                                    <p class="text-muted m-b-15 font-15">
+                                        <center>Retrieve reviews based on keywords and or filters. Filter further with visualized word cloud!</center>
                                     </p>
                                     <button type="button" class="btn btn-block btn-xs btn-purple waves-effect waves-light">Search Now</button>
 
