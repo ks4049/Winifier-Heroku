@@ -1,23 +1,19 @@
-
 <!-- Navigation Bar-->
 <header id="topnav">
     <div class="topbar-main">
         <div class="container-fluid">
             <!-- Logo container-->
-            <div class="logo">
-              <center>
+            <div class="row">
+              <div class="col-sm-5"></div>
+            <div class="logo" style="margin-left:2%;">
                 <!-- Text Logo -->
-                <!--<a href="index.html" class="logo">-->
-                    <!--<span class="logo-small"><i class="mdi mdi-radar"></i></span>-->
-                    <!--<span class="logo-large"><i class="mdi mdi-radar"></i> Adminto</span>-->
-                    <!--</a>-->
-                    <!-- Image Logo -->
-                    <a href="/home/index.php" class="logo">
-                        <img src="/home/assets/images/logo-sm.png" alt="" height="26" class="logo-small">
-                        <img src="/home/assets/images/logo.png" alt="" height="24" class="logo-large">
-                    </a>
-                  </center>
+                <a href="index.html" class="logo">
+                    <span class="logo-small"><i class="mdi mdi-radar"></i> Winifier</span>
+                    <span class="logo-large"><i class="mdi mdi-radar"></i> Winifier</span>
+                  </a>
             </div>
+            <div class="col-sm-5"></div>
+
                 <!-- End Logo container-->
                 <!--
                 <div class="menu-extras topbar-custom">
