@@ -1,4 +1,4 @@
-<?php 
+<?php
 $jquery = "/home/assets/js/jquery.min.js";
 $popper = "/home/assets/js/popper.min.js";
 $bootstrap = "/home/assets/js/bootstrap.min.js";
@@ -15,7 +15,7 @@ $jqueryapp = "/home/assets/js/jquery.app.js";
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center">
-                        2016 - 2018 © Adminto. Coderthemes.com
+                        Made with Love using PHP and Python!
                     </div>
                 </div>
             </div>
