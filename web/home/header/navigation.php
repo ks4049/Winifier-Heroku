@@ -1,16 +1,19 @@
-
 <!-- Navigation Bar-->
 <header id="topnav">
     <div class="topbar-main">
         <div class="container-fluid">
             <!-- Logo container-->
-            <div class="logo">
+            <div class="row">
+              <div class="col-sm-5"></div>
+            <div class="logo" style="margin-left:2%;">
                 <!-- Text Logo -->
-                <a href="index.html" class="logo" >
-                    <span class="logo-small"><i class="mdi mdi-radar"></i></span>
+                <a href="index.html" class="logo">
+                    <span class="logo-small"><i class="mdi mdi-radar"></i> Winifier</span>
                     <span class="logo-large"><i class="mdi mdi-radar"></i> Winifier</span>
                   </a>
             </div>
+            <div class="col-sm-5"></div>
+
                 <!-- End Logo container-->
                 <!--
                 <div class="menu-extras topbar-custom">
