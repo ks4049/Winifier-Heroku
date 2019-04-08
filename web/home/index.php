@@ -25,7 +25,7 @@
                             <p class="text-muted m-b-15 font-15">
                                 <center>Create your own custom model with exisiting or supplied dataset, learning how the process works!</center>
                             </p>
-                            <button type="button" class="btn btn-block btn-xs btn-purple waves-effect waves-light">Start Now</button>
+                            <button type="button" class="btn btn-block btn-xs btn-purple waves-effect waves-light" onclick="location.href='data/new_project.php';">Start Now</button>
 
                         </div>
                       </div>
