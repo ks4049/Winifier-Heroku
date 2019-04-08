@@ -7,7 +7,7 @@
               <div class="col-sm-5"></div>
             <div class="logo" style="margin-left:2%;">
                 <!-- Text Logo -->
-                <a href="index.html" class="logo">
+                <a href="https://winifier.herokuapp.com/home" class="logo">
                     <span class="logo-small"><i class="mdi mdi-radar"></i> Winifier</span>
                     <span class="logo-large"><i class="mdi mdi-radar"></i> Winifier</span>
                   </a>
