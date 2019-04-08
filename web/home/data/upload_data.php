@@ -1,8 +1,8 @@
 <?php include "../api_endpoint/api.php"; ?>
 <?php
-if isset($_GET['project_name']){
+if (isset($_GET['project_name'])){
   $project_name = $_GET['project_name'];
-  ?>
+?>
 <!DOCTYPE html>
 <html>
     <head>
