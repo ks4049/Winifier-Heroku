@@ -1,5 +1,10 @@
 <?php
   if(isset($_GET['error_message'])){
+    $error_message = $_GET['error_message'];
+  }
+  else{
+    $error_message = 'Access Forbidden';
+  }
 ?>
 <!DOCTYPE html>
 <html>
@@ -19,12 +24,12 @@
             <div class="ex-page-content text-center">
               <br/><br/><br/>
                 <div class="text-error">404</div>
-                <h3 class="text-uppercase font-600">Project Name Already Exists</h3>
+                <h3 class="text-uppercase font-600"><?php echo $error_message; ?></h3>
                 <p class="text-muted">
-                    Try creating a project with another name.
+                    Try going back!
                 </p>
                 <br>
-                <a class="btn btn-success waves-effect waves-light" href="../data/new_project.php">Return to creating a new project</a>
+                <a class="btn btn-success waves-effect waves-light" href="../data/new_project.php">Create a new project</a>
 
             </div>
         </div>
@@ -36,7 +41,3 @@
 
 	</body>
 </html>
-
-<?php
-}
-?>

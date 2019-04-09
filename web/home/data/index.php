@@ -25,9 +25,13 @@
 
         <!-- Page-Title -->
         <div class="row">
-          <div class="col-sm-12">
+          <div class="col-sm-10">
             <h4 class="page-title">Project Structure</h4>
           </div>
+          <div class="col-sm-2">
+            <br/>
+          <button type="button" class="btn btn-block btn-xs btn-purple waves-effect waves-light" onclick="location.href='data/new_project.php';">Begin Training Process</button>
+        </div>
         </div>
         <!-- end page title end breadcrumb -->
 
@@ -75,7 +79,7 @@
                   </div>
 
                   <h4 class="header-title m-t-0 m-b-30">Preview</h4>
-                  <div id="fileContents"></div>
+                  <div id="fileContents"><pre>Click on a file from the left panel to preview it!</pre></div>
               </div>
           </div><!-- end col -->
         </div>
