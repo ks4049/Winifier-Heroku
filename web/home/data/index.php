@@ -1,10 +1,6 @@
 <?php include "../api_endpoint/api.php"; ?>
 <?php if(isset($_GET["project_name"])){
   $project_name = trim($_GET["project_name"]);
-  $res="";
-  if(isset($_GET["res"])) {
-    $res = $_GET['res'];
-  }
   ?>
   <!DOCTYPE html>
   <html>
@@ -30,7 +26,7 @@
           </div>
           <div class="col-sm-2">
             <br/>
-          <button type="button" class="btn btn-block btn-xs btn-purple waves-effect waves-light" onclick="location.href='data/new_project.php';">Begin Training Process</button>
+          <button type="button" class="btn btn-block btn-xs btn-purple waves-effect waves-light" onclick="location.href='process.php?project_name=<?php echo $project_name; ?>';">Begin Training Process</button>
         </div>
         </div>
         <!-- end page title end breadcrumb -->
@@ -114,11 +110,6 @@
     $('.file').addClass("mdi mdi-file");
     $('.folder').css("list-style-type","none");
     $('.file').css("list-style-type","none");
-
-
-
-
-
     }
   });
 
