@@ -34,7 +34,8 @@ if(isset($algorithm)){
                             <div class="row">
                                 <div class="col-12">
                                     <div class="p-20">
-                                        <form id="trainingDataForm" class="form-horizontal" role="form" action="<?php echo $api_base_url."__original__/train.php"; ?>" method="GET">
+                                        <form id="trainingDataForm" class="form-horizontal" role="form" action="index.php" method="GET">
+                                          <input type="hidden" name="trainOn" value="yes">
                                           <input type="hidden" name="algorithm" value="<?php echo $algorithm; ?>">
                                           <input type="hidden" name="project_name" value="<?php echo $project_name; ?>">
                                           <div class="form-group row">
@@ -125,7 +126,7 @@ else{
 function loadMeta(){
   var option_selected = document.getElementById("datasetOptions").selectedIndex;
   var meta = document.getElementsByTagName("option")[option_selected].getAttribute("meta");
-  $('#datasetSource').html(meta);
+  $('#datasetSource').html('<b style="margin-left:5px; font-size:12px">'+meta+'</b>');
 }
 </script>
 </html>

@@ -21,5 +21,5 @@ $modernizer = "/home/assets/js/modernizr.min.js";
     <link href="<?php echo $bootstrap; ?>" rel="stylesheet" type="text/css" />
     <link href="<?php echo $icons; ?>" rel="stylesheet" type="text/css" />
     <link href="<?php echo $style; ?>" rel="stylesheet" type="text/css" />
-
+    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
     <script src="<?php echo $modernizer; ?>"></script>

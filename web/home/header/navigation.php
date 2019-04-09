@@ -8,8 +8,8 @@
             <div class="logo" style="margin-left:2%;">
                 <!-- Text Logo -->
                 <a href="https://winifier.herokuapp.com/home" class="logo">
-                    <span class="logo-small"><i class="mdi mdi-radar"></i> Winifier</span>
-                    <span class="logo-large"><i class="mdi mdi-radar"></i> Winifier</span>
+                    <span class="logo-small" style="font-size: 34px; font-family: 'Satisfy', cursive; text-transform: lowercase;"><i style="color: #F28E1C" class="mdi mdi-beer"></i> Winifier <i style="color: #F28E1C" class="mdi mdi-beer"></i></span>
+                    <span class="logo-large" style="font-size: 34px; font-family: 'Satisfy', cursive; text-transform: lowercase;"><i style="color: #F28E1C" class="mdi mdi-beer"></i> Winifier <i style="color: #F28E1C" class="mdi mdi-beer"></i></span>
                   </a>
             </div>
             <div class="col-sm-5"></div>
