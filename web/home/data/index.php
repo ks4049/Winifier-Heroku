@@ -58,7 +58,7 @@
                 </div>
               </div>-->
 
-              <h2 class="header-title m-t-0 m-b-30"><span class="badge badge-secondary"><?php echo $project_name; ?></span></h2>
+              <h2 class="header-title m-t-0 m-b-30"><span class="badge badge-secondary" style="font-size:18px;"><?php echo $project_name; ?></span></h2>
               <div id="tree-structure"><b><center><i class="fa fa-spin fa-circle-o-notch"></i> Loading ...</center></b></div>
 
             </div>
