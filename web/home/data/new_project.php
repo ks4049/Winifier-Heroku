@@ -27,7 +27,7 @@
                               <input type="text" class="form-control" name="new_project_name" id="projectInputText" aria-describedby="textHelp" placeholder="Enter Project Name" autocomplete="off">
                               <small id="textHelp" class="form-text text-muted">Think of something cool!</small>
                           </div>
-                          <button type="submit" class="btn btn-primary">Create Project</button>
+                          <button type="submit" class="btn btn-primary btn-block">Create Project</button>
                       </form>
                   </div>
               </div>
