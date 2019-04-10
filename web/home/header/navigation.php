@@ -93,7 +93,7 @@
                 <!-- Navigation Menu-->
                 <ul class="navigation-menu">
                     <li class="has-submenu">
-                        <a href="#"><i class="mdi mdi-view-dashboard"></i> <span>Existing Projects</span> </a>
+                        <a href="https://winifier.herokuapp.com/home/data/projects.php"><i class="mdi mdi-view-dashboard"></i> <span>Existing Projects</span> </a>
                     </li>
                 </ul>
         <!-- End navigation menu -->
