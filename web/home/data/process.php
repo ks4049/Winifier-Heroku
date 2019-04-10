@@ -38,6 +38,8 @@ if(isset($algorithm)){
                                           <input type="hidden" name="trainOn" value="yes">
                                           <input type="hidden" name="algorithm" value="<?php echo $algorithm; ?>">
                                           <input type="hidden" name="project_name" value="<?php echo $project_name; ?>">
+                                          <input type="hidden" name="meta-component" id="meta-component" value="">
+
                                           <div class="form-group row">
                                               <label class="col-2 col-form-label">Dataset Limit</label>
                                               <div class="col-md-10">
@@ -127,6 +129,8 @@ function loadMeta(){
   var option_selected = document.getElementById("datasetOptions").selectedIndex;
   var meta = document.getElementsByTagName("option")[option_selected].getAttribute("meta");
   $('#datasetSource').html('<b style="margin-left:5px; font-size:12px">'+meta+'</b>');
+  $('#meta-component').val(meta);
+
 }
 </script>
 </html>

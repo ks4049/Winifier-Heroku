@@ -24,7 +24,7 @@
     ?>
     <div class="wrapper">
       <div class="container-fluid">
-
+        <br/><br/>
         <!-- Page-Title -->
         <div class="row">
           <div class="col-sm-8">
@@ -129,7 +129,8 @@ if(
   isset($_GET['dataset-size']) &&
   isset($_GET['dataset-location']) &&
   isset($_GET['type']) &&
-  isset($_GET['value'])
+  isset($_GET['value']) &&
+  isset($_GET['meta-component'])
 ){
   $algorithm = $_GET['algorithm'];
   $project = $_GET['project_name'];
@@ -137,9 +138,10 @@ if(
   $datasetLocation = $_GET['dataset-location'];
   $type = $_GET['type'];
   $value = $_GET['value'];
+  $metaComponent = $_GET['meta-component'];
   ?>
   <script>
-  $.ajax({url: '<?php echo $api_base_url."__original__/train.php?algorithm=".$algorithm."&project_name=".$project."&dataset-size=".$datasetSize."&dataset-location=".$datasetLocation."&type=".$type."&value=".$value; ?>',
+  $.ajax({url: '<?php echo $api_base_url."server/__server_python__/train.php?algorithm=".$algorithm."&project_name=".$project."&dataset-size=".$datasetSize."&dataset-location=".$datasetLocation."&type=".$type."&value=".$value."&meta-component=".$metaComponent; ?>',
   success: function(result){
     $('#fileContents').html("<pre>Training Log ... </pre>");
     $('#fileContents').append(result);
