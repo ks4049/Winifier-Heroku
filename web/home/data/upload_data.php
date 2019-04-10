@@ -25,12 +25,19 @@ if (isset($_GET['project_name'])){
                   <div class="card-box">
                       <h4 class="m-t-0 m-b-30 header-title">Upload Data</h4>
 
-                      <form role="form" action="<?php echo $api_base_url."server/upload_data.php"; ?>" method="POST">
+                      <form role="form" action="<?php echo $api_base_url."server/upload_data.php"; ?>" method="POST" data-parsley-validate>
                           <div class="form-group">
                               <input type="hidden" name="project_name" value="<?php echo $project_name; ?>">
                               <label for="dataInputText">Data URL</label>
-                              <input type="text" class="form-control" name="data_upload_url" id="dataInputText" aria-describedby="textHelp" placeholder="Enter URL" autocomplete="off">
-                              <small id="textHelp" class="form-text text-muted">Enter a ~ delimited .txt file URL</small>
+                              <input type="url" class="form-control" required parsley-type="url" name="data_upload_url" id="dataInputText" aria-describedby="textHelp" placeholder="Enter URL" autocomplete="off">
+                              <small id="textHelp" class="form-text text-muted">Enter a ~ delimited .txt file URL. (If following option is not checked, data will be uploaded to training data folder)</small>
+                              <br/>
+                              <div class="checkbox checkbox-custom">
+                                  <input id="checkbox1" type="checkbox" name="test_data_flag">
+                                  <label for="checkbox1">
+                                      URL I am supplying is for testing out an existing model.
+                                  </label>
+                              </div>
                           </div>
                           <button type="submit" class="btn btn-primary btn-block">Start Data Upload</button>
                       </form>
@@ -44,6 +51,11 @@ if (isset($_GET['project_name'])){
        <?php
        include "../footer/footer.php";
        ?>
+       <script type="text/javascript">
+           $(document).ready(function() {
+               $('form').parsley();
+           });
+       </script>
     </body>
 
 </html>
