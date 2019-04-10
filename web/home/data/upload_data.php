@@ -32,7 +32,7 @@ if (isset($_GET['project_name'])){
                               <input type="text" class="form-control" name="data_upload_url" id="dataInputText" aria-describedby="textHelp" placeholder="Enter URL" autocomplete="off">
                               <small id="textHelp" class="form-text text-muted">Enter a ~ delimited .txt file URL</small>
                           </div>
-                          <button type="submit" class="btn btn-primary">Start Data Upload</button>
+                          <button type="submit" class="btn btn-primary btn-block">Start Data Upload</button>
                       </form>
                   </div>
               </div>
