@@ -15,7 +15,7 @@ $jqueryapp = "/home/assets/js/jquery.app.js";
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center">
-                        Made with Love using PHP and Python!
+                        Made with <i class="fa fa-heart"></i> in New York!
                     </div>
                 </div>
             </div>
