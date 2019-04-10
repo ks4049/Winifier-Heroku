@@ -1,7 +1,4 @@
 <?php include "../api_endpoint/api.php"; ?>
-<?php if(isset($_GET["project_name"])){
-  $project_name = trim($_GET["project_name"]);
-?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -80,5 +77,5 @@ success: function(result){
  }
 }});
 </script>
+
 </html>
-<?php } ?>
