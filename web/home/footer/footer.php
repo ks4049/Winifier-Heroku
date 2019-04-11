@@ -8,6 +8,7 @@ $jstree = "/home/assets/plugins/jstree/jstree.min.js";
 $jquerytree = "/home/assets/pages/jquery.tree.js";
 $jquerycore = "/home/assets/js/jquery.core.js";
 $jqueryapp = "/home/assets/js/jquery.app.js";
+$parsley = "/home/assets/plugins/parsleyjs/dist/parsley.min.js";
 ?>
 
     <!-- Footer -->
@@ -15,7 +16,7 @@ $jqueryapp = "/home/assets/js/jquery.app.js";
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center">
-                        Made with Love using PHP and Python!
+                        Made with <i class="fa fa-heart"></i> in New York!
                     </div>
                 </div>
             </div>
@@ -38,3 +39,4 @@ $jqueryapp = "/home/assets/js/jquery.app.js";
         <!-- App js -->
         <script src="<?php echo $jquerycore;?>"></script>
         <script src="<?php echo $jqueryapp;?>"></script>
+        <script src="<?php echo $parsley;?>"></script>
