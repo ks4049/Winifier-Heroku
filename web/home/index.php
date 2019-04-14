@@ -38,7 +38,7 @@
                                 <p class="text-muted m-b-15 font-15">
                                     <center>Test against an existing model you or someone else created. Evaluate different model results too!</center>
                                 </p>
-                                <button type="button" class="btn btn-block btn-xs btn-purple waves-effect waves-light">Test Now</button>
+                                <button type="button" class="btn btn-block btn-xs btn-purple waves-effect waves-light" onclick="location.href='data/projects.php?message=testing';" >Test Now</button>
 
                             </div>
                           </div>
@@ -51,7 +51,7 @@
                                     <p class="text-muted m-b-15 font-15">
                                         <center>Retrieve reviews based on keywords and or filters. Filter further with visualized word cloud!</center>
                                     </p>
-                                    <button type="button" class="btn btn-block btn-xs btn-purple waves-effect waves-light">Search Now</button>
+                                    <button type="button" class="btn btn-block btn-xs btn-purple waves-effect waves-light" onclick="location.href='info/index.php';">Search Now</button>
 
                                 </div>
                               </div>
