@@ -18,16 +18,29 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="card-box">
-                            <h4 class="page-title">Existing Projects</h4>
+                          <?php $flag=0; ?>
+                          <?php if (isset($_GET["message"])){
+                            if($_GET["message"]=="testing"){
+                              $message = "Select a Project";
+                              $flag = 1;
+                            }
+                            else{
+                              $message = "Existing Projects";
+
+                            }
+                          }
+                          ?>
+                            <h4 class="page-title"><?php echo $message; ?></h4>
 
                             <p class="text-muted m-b-30 font-14">
                             </p>
-
+                            <?php if($flag==0) { ?>
                             <div class="row">
                                 <div class="col-sm-4">
                                     <button type="button" onclick="location.href='new_project.php';" class="btn btn-purple btn-rounded w-md waves-effect waves-light m-b-20">Create New Project</button>
                                 </div>
                             </div>
+                          <?php } ?>
                             <div class="row" id="project-data">
                             </div>
 
