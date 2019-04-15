@@ -32,7 +32,7 @@
       <div class="row">
           <div class="col-12">
               <div class="card-box table-responsive">
-                  <h4 class="m-t-0 header-title">Search Results for  <span class="badge badge-primary"><?php echo $_GET["query"]; ?></span></h4>
+                  <h4 class="m-t-0 header-title">Search Results for  <span class="badge badge-primary"><?php echo $_POST["query"]; ?></span></h4>
 
                   <p class="text-muted font-14 m-b-30">
                       Here we display wine reviews using boolean retrieval. (Max 400 Results!)

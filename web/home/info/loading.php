@@ -1,6 +1,9 @@
 <?php if(isset($_GET["search_text"])) {?>
-  <form style="display: hidden" action=<?php echo "/home/info/search.php?query=".$_GET['search_text']; ?> method="POST" id="form">
+  <?php $query = $_GET["search_text"]; ?>
+  <form style="display: hidden" action=<?php echo "/home/info/search.php";?> method="POST" id="form">
     <input type="hidden" id="results" name="search_text" value=""/>
+    <input type="hidden" id="results" name="query" value="<?php echo $query; ?>"/>
+
   </form>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
