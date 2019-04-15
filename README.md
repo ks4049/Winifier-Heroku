@@ -6,6 +6,15 @@ The application has been deployed using Heroku.
 
 Link to the Winifier Repository: [Winifier](https://github.com/nirbhayph/Winifier)
 
+Stack:
+- Python
+- PHP
+- MongoDB
+- HTML5
+- Bootstrap
+- JS / JQuery / AJAX
+- Heroku Deployed
+
 Authors: 
 - @nirbhayph
 - @dhirensc
