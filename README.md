@@ -1,15 +1,15 @@
 # Winifer Heroku Connect!
 
-This repository manages the server side scripts for the web integration of the winifier repository. 
+This repository manages the client and server side scripts for the web integration of the winifier repository. 
 
 The application has been deployed using Heroku. 
 
 Link to the Winifier Repository: [Winifier](https://github.com/nirbhayph/Winifier)
 
 Authors: 
-- @ks4049
-- @dhirensc
 - @nirbhayph
+- @dhirensc
+- @ks4049
 
 ## Documentation
 
