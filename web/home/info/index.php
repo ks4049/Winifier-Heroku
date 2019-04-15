@@ -16,7 +16,7 @@
   <div class="wrapper">
     <div class="container-fluid">
       <br/><br/>
-      <form role="form" action="<?php echo $api_base_url."server/upload_data.php"; ?>" method="POST" data-parsley-validate>
+      <form role="form" action="<?php echo "/home/info/loading.php" ?>" method="GET" data-parsley-validate>
           <div class="form-group">
               <label for="dataInputText">Search</label>
               <input type="text" class="form-control" required  name="search_text" id="dataInputText" placeholder="Search for something" autocomplete="off">
