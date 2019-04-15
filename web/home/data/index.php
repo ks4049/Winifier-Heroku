@@ -2,7 +2,15 @@
 <?php if(isset($_GET["project_name"])){
   $project_name = trim($_GET["project_name"]);
   if(isset($_GET["trainOn"])){
-    $previewMessage = "Training log will be generated. Other Results will be available on the left panel!<br/><i class=\"fa fa-spin fa-circle-o-notch\"></i> Loading ...";
+    $previewMessage = "Training log will be generated. Other results will be available on the left panel!<br/><i class=\"fa fa-spin fa-circle-o-notch\"></i> Loading ...";
+  }
+  else{
+    $previewMessage = "Click on a file from the left panel to preview it!";
+  }
+  ?>
+  <?php
+  if(isset($_GET["testOn"])){
+    $previewMessage = "Testing log will be generated. Other results will be available on the left panel!<br/><i class=\"fa fa-spin fa-circle-o-notch\"></i> Loading ...";
   }
   else{
     $previewMessage = "Click on a file from the left panel to preview it!";
@@ -27,7 +35,7 @@
         <br/><br/>
         <!-- Page-Title -->
         <div class="row">
-          <div class="col-sm-8">
+          <div class="col-sm-6">
             <h4 class="page-title">Project Structure</h4>
           </div>
           <div class="col-sm-2">
@@ -38,6 +46,10 @@
             <br/>
           <button type="button" class="btn btn-block btn-xs btn-purple waves-effect waves-light" onclick="location.href='process.php?project_name=<?php echo $project_name; ?>';">Go To Training Process</button>
         </div>
+        <div class="col-sm-2">
+          <br/>
+        <button type="button" class="btn btn-block btn-xs btn-purple waves-effect waves-light" onclick="location.href='test_process.php?project_name=<?php echo $project_name; ?>';">Perform Testing</button>
+      </div>
         </div>
         <!-- end page title end breadcrumb -->
 
@@ -150,6 +162,34 @@ if(
   <?php
 }
  ?>
+
+
+ <?php
+ if(
+   isset($_GET['project_name']) &&
+   isset($_GET['dataset-size']) &&
+   isset($_GET['dataset-location']) &&
+   isset($_GET['model-location']) &&
+   isset($_GET['meta-component-model']) &&
+   isset($_GET['meta-component'])
+ ){
+   $project = $_GET['project_name'];
+   $datasetSize = $_GET['dataset-size'];
+   $datasetLocation = $_GET['dataset-location'];
+   $modelLocation = $_GET['model-location'];
+   $metaComponent = $_GET['meta-component'];
+   $metaComponentModel = $_GET['meta-component-model'];
+   ?>
+   <script>
+   $.ajax({url: '<?php echo $api_base_url."server/__server_python__/test.php?model-location=".$modelLocation."&project_name=".$project."&dataset-size=".$datasetSize."&dataset-location=".$datasetLocation."&meta-component-model=".$metaComponentModel."&meta-component=".$metaComponent; ?>',
+   success: function(result){
+     $('#fileContents').html("<pre>Testing Log ... </pre>");
+     $('#fileContents').append(result);
+   }});
+   </script>
+   <?php
+ }
+  ?>
 
 <?php
 include "../footer/footer.php";
