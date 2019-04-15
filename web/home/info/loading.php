@@ -1,3 +1,5 @@
+<?php include "../api_endpoint/api.php"; ?>
+
 <?php if(isset($_GET["search_text"])) {?>
   <?php $query = $_GET["search_text"]; ?>
   <form style="display: hidden" action=<?php echo "/home/info/search.php";?> method="POST" id="form">
@@ -20,4 +22,30 @@ $(document).ready(function(){
 <?php }
 ?>
 
-<div>Fetching Results .... </div>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Loading</title>
+  <?php
+  include "../header/header.php";
+  ?>
+</head>
+
+<body>
+  <?php
+  include "../header/navigation.php";
+  ?>
+  <div class="wrapper">
+    <div class="container-fluid">
+      <br/><br/>
+      <div><i style="font-size: 20px;"><center><i class="fa fa-spin fa-circle-o-notch"></i> Fetching Results .... </center></i> </div>
+  </div>
+</div>
+    <?php
+    include "../footer/footer.php";
+    ?>
+
+
+</body>
+</html>
