@@ -3,16 +3,13 @@
     <div class="topbar-main">
         <div class="container-fluid">
             <!-- Logo container-->
-            <div class="row">
-              <div class="col-sm-5"></div>
-            <div class="logo" style="margin-left:2%;">
+            <div class="logo" style="float:left;">
                 <!-- Text Logo -->
                 <a href="https://winifier.herokuapp.com/home" class="logo">
                     <span class="logo-small" style="font-size: 34px; font-family: 'Satisfy', cursive; text-transform: lowercase;"><i style="color: #F28E1C" class="mdi mdi-beer"></i> Winifier <i style="color: #F28E1C" class="mdi mdi-beer"></i></span>
                     <span class="logo-large" style="font-size: 34px; font-family: 'Satisfy', cursive; text-transform: lowercase;"><i style="color: #F28E1C" class="mdi mdi-beer"></i> Winifier <i style="color: #F28E1C" class="mdi mdi-beer"></i></span>
                   </a>
             </div>
-            <div class="col-sm-5"></div>
 
                 <!-- End Logo container-->
                 <!--
