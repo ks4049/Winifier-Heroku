@@ -25,7 +25,7 @@
                           <div class="form-group">
                               <label for="reviewText">Supply wine review(s)</label>
                               <textarea name="review_text" id="reviewText" class="form-control" rows="4" required autocomplete="off"></textarea>
-                              <small id="textHelp" class="form-text text-muted">You can visit this site to pick one. <a href="https://winemag.com" target="_blank">Winemag!</a></small>
+                              <small id="textHelp" class="form-text text-muted">You can visit this site to pick one. <a href="https://www.winemag.com/?s=&search_type=reviews&drink_type=wine" target="_blank">Winemag!</a></small>
                           </div>
                           <button type="submit" class="btn btn-primary btn-block">Determine now!</button>
                       </form>
