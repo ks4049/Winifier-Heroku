@@ -3,7 +3,7 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>New Project</title>
+        <title>User based testing</title>
         <?php
         include "../header/header.php";
         ?>
@@ -19,15 +19,15 @@
               <div class="row">
               <div class="col-md-12">
                   <div class="card-box">
-                      <h4 class="m-t-0 m-b-30 header-title">Project Details</h4>
+                      <h5>Supply a single or a set of wine reviews and determine if they were positivily or negatively said.</h5>
 
                       <form role="form" action="<?php echo $api_base_url."server/create_project.php"; ?>" method="GET">
                           <div class="form-group">
-                              <label for="projectInputText">Project Name</label>
-                              <input type="text" class="form-control" name="new_project_name" id="projectInputText" aria-describedby="textHelp" placeholder="Enter Project Name" autocomplete="off" required>
-                              <small id="textHelp" class="form-text text-muted">Think of something cool!</small>
+                              <label for="reviewText">Supply wine review(s)</label>
+                              <textarea name="review_text" id="reviewText" class="form-control" rows="4" required autocomplete="off"></textarea>
+                              <small id="textHelp" class="form-text text-muted">You can visit this site to pick one. <a href="https://www.winemag.com/?s=&search_type=reviews&drink_type=wine" target="_blank">Winemag!</a></small>
                           </div>
-                          <button type="submit" class="btn btn-primary btn-block">Create Project</button>
+                          <button type="submit" class="btn btn-primary btn-block">Determine now!</button>
                       </form>
                   </div>
               </div>

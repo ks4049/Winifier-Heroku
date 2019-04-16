@@ -14,49 +14,79 @@
         <br/><br/>
         <div class="wrapper">
             <div class="container-fluid">
+                <div class="row justify-content-center">
+                  <div class="col-sm-5 bg-picture card-box">
+                    <center><span class="badge badge-success"><div style="font-size: 22px;"><b>Developer's Section</b></div></span></center>
+                      <br/>
 
-                <div class="row">
-                    <div class="col-md-4">
+                      <div class="row" style="text-align:center;">
 
-                        <div class="card-box">
+                          <div class="col-md-6">
 
-                            <h4 class="header-title m-t-0 m-b-30">New Project</h4>
+                              <div class="card-box">
 
-                            <p class="text-muted m-b-15 font-15">
-                                <center>Create your own custom model with exisiting or supplied dataset, learning how the process works!</center>
-                            </p>
-                            <button type="button" class="btn btn-block btn-xs btn-purple waves-effect waves-light" onclick="location.href='data/new_project.php';">Start Now</button>
+                                  <h4 class="header-title m-t-0 m-b-30">New Project</h4>
 
-                        </div>
+                                  <p class="text-muted m-b-15 font-15">
+                                      <center>Create your own custom model with exisiting or supplied dataset, learning how the process works!</center>
+                                  </p>
+                                  <button type="button" class="btn btn-block btn-xs btn-purple waves-effect waves-light" onclick="location.href='data/new_project.php';">Start Now</button>
+
+                              </div>
+                            </div>
+
+                              <div class="col-md-6">
+
+                                  <div class="card-box">
+
+                                      <h4 class="header-title m-t-0 m-b-30">Testing / Evaluating</h4>
+
+                                      <p class="text-muted m-b-15 font-15">
+                                          <center>Test against an existing model you or someone else created. Evaluate different model results too!</center>
+                                      </p>
+                                      <button type="button" class="btn btn-block btn-xs btn-purple waves-effect waves-light" onclick="location.href='data/projects.php?message=testing';" >Test Now</button>
+
+                                  </div>
+                                </div>
                       </div>
-                        <div class="col-md-4">
+                  </div>
+                  <div class="col-sm-1"></div>
+                  <div class="col-sm-5 bg-picture card-box">
+                    <center><span class="badge badge-primary"><div style="font-size: 22px;"><b>Customer's Section</b></div></span></center>
+                      <br/>
+                    <div class="row" style="text-align:center;">
+                      <div class="col-md-6">
+
+                          <div class="card-box">
+
+                              <h4 class="header-title m-t-0 m-b-30">User Based Testing</h4>
+
+                              <p class="text-muted m-b-15 font-15">
+                                  <center>Supply a single or a set of wine reviews and determine if they were positivily or negatively said. </center>
+                              </p>
+                              <button type="button" class="btn btn-block btn-xs btn-purple waves-effect waves-light" onclick="location.href='try/testing.php';" >Try Now</button>
+
+                          </div>
+                        </div>
+                        <div class="col-md-6">
 
                             <div class="card-box">
 
-                                <h4 class="header-title m-t-0 m-b-30">Testing / Evaluating</h4>
+                                <h4 class="header-title m-t-0 m-b-30">Information Retrieval</h4>
 
                                 <p class="text-muted m-b-15 font-15">
-                                    <center>Test against an existing model you or someone else created. Evaluate different model results too!</center>
+                                    <center>Retrieve reviews based on keywords and or filters. Filter further with visualized word cloud!</center>
                                 </p>
-                                <button type="button" class="btn btn-block btn-xs btn-purple waves-effect waves-light" onclick="location.href='data/projects.php?message=testing';" >Test Now</button>
+                                <button type="button" class="btn btn-block btn-xs btn-purple waves-effect waves-light" onclick="location.href='/home/info/index.php';">Search Now</button>
 
                             </div>
                           </div>
-                            <div class="col-md-4">
+                    </div>
 
-                                <div class="card-box">
-
-                                    <h4 class="header-title m-t-0 m-b-30">Information Retrieval</h4>
-
-                                    <p class="text-muted m-b-15 font-15">
-                                        <center>Retrieve reviews based on keywords and or filters. <b>Filter further with visualized word cloud! <span class="badge badge-info">In Progress!</span><b></center>
-                                    </p>
-                                    <button type="button" class="btn btn-block btn-xs btn-purple waves-effect waves-light" onclick="location.href='/home/info/index.php';">Search Now</button>
-
-                                </div>
-                              </div>
                     </div>
                     <!-- end col -->
+
+                  </div>
                 </div>
                 <!-- end row -->
             </div> <!-- end container -->
