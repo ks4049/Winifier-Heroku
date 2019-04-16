@@ -19,7 +19,7 @@
                     <center><span class="badge badge-success"><div style="font-size: 22px;"><b>Developer's Section</b></div></span></center>
                       <br/>
 
-                      <div class="row" >
+                      <div class="row" style="text-align:center;">
 
                           <div class="col-md-6">
 
@@ -54,7 +54,7 @@
                   <div class="col-sm-5 bg-picture card-box">
                     <center><span class="badge badge-primary"><div style="font-size: 22px;"><b>Customer's Section</b></div></span></center>
                       <br/>
-                    <div class="row">
+                    <div class="row" style="text-align:center;">
                       <div class="col-md-6">
 
                           <div class="card-box">
