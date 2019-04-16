@@ -4,12 +4,7 @@
   if(isset($_GET["trainOn"])){
     $previewMessage = "Training log will be generated. Other results will be available on the left panel!<br/><i class=\"fa fa-spin fa-circle-o-notch\"></i> Loading ...";
   }
-  else{
-    $previewMessage = "Click on a file from the left panel to preview it!";
-  }
-  ?>
-  <?php
-  if(isset($_GET["testOn"])){
+  else if(isset($_GET["testOn"])){
     $previewMessage = "Testing log will be generated. Other results will be available on the left panel!<br/><i class=\"fa fa-spin fa-circle-o-notch\"></i> Loading ...";
   }
   else{
@@ -24,6 +19,7 @@
     <?php
     include "../header/header.php";
     ?>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
   </head>
 
   <body>
@@ -92,6 +88,8 @@
 
                   <h4 class="header-title m-t-0 m-b-30">Preview</h4>
                   <div id="fileContents"><pre><?php echo $previewMessage; ?></pre></div>
+                  <canvas id="myChart" width="400" height="100"></canvas>
+
               </div>
           </div><!-- end col -->
         </div>
@@ -185,16 +183,15 @@ if(
    success: function(result){
      $('#fileContents').html("<pre>Testing Log ... </pre>");
      $('#fileContents').append(result);
+
    }});
    </script>
    <?php
  }
   ?>
-
 <?php
 include "../footer/footer.php";
 ?>
-
 </body>
 </html>
 <?php } ?>

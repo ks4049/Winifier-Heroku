@@ -30,7 +30,8 @@ if (isset($_GET['project_name'])){
                               <input type="hidden" name="project_name" value="<?php echo $project_name; ?>">
                               <label for="dataInputText">Data URL</label>
                               <input type="url" class="form-control" required parsley-type="url" name="data_upload_url" id="dataInputText" aria-describedby="textHelp" placeholder="Enter URL" autocomplete="off">
-                              <small id="textHelp" class="form-text text-muted">Enter a ~ delimited .txt file URL. (If following option is not checked, data will be uploaded to training data folder)</small>
+                              <small style="font-size: 13px; " id="textHelp" class="form-text text-muted">Enter a ~ delimited .txt file URL. (If following option is not checked, data will be uploaded to training data folder)</small>
+                              <small style="font-size: 13px; " id="textHelp" class="form-text text-muted"><a target="_blank" href="https://raw.githubusercontent.com/nirbhayph/Winifier/Winifier-Information-Retrieval/__data__/sample.txt"/>Link to sample .txt file as required for input</a></small>
                               <br/>
                               <div class="checkbox checkbox-custom">
                                   <input id="checkbox1" type="checkbox" name="test_data_flag">

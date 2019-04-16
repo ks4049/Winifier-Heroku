@@ -16,7 +16,7 @@
             <div class="container-fluid">
 
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-3">
 
                         <div class="card-box">
 
@@ -29,7 +29,7 @@
 
                         </div>
                       </div>
-                        <div class="col-md-4">
+                        <div class="col-md-3">
 
                             <div class="card-box">
 
@@ -42,7 +42,20 @@
 
                             </div>
                           </div>
-                            <div class="col-md-4">
+                          <div class="col-md-3">
+
+                              <div class="card-box">
+
+                                  <h4 class="header-title m-t-0 m-b-30">User based testing</h4>
+
+                                  <p class="text-muted m-b-15 font-15">
+                                      <center>Supply a single or a set of wine reviews and determine if they were positivly or negatively said. </center>
+                                  </p>
+                                  <button type="button" class="btn btn-block btn-xs btn-purple waves-effect waves-light" onclick="location.href='try/testing.php';" >Try Now</button>
+
+                              </div>
+                            </div>
+                            <div class="col-md-3">
 
                                 <div class="card-box">
 
