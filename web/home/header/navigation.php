@@ -91,7 +91,11 @@
                 <ul class="navigation-menu">
                     <li class="has-submenu">
                         <a href="https://winifier.herokuapp.com/home/data/projects.php"><i class="mdi mdi-view-dashboard"></i> <span>Existing Projects [Developer's Section]</span> </a>
+
                     </li>
+                    <li>
+                    <a href="http://winifier.herokuapp.com/apk/Winifier.apk"><i class="mdi mdi-android"></i> <span>Winifier APK (Android APP)</span> </a>
+                  </li>
                 </ul>
         <!-- End navigation menu -->
         </div> <!-- end #navigation -->

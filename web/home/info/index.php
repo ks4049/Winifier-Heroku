@@ -19,7 +19,7 @@
       <form role="form" action="<?php echo "/home/info/loading.php" ?>" method="GET" data-parsley-validate>
           <div class="form-group">
               <label for="dataInputText">Search</label>
-              <input type="text" class="form-control" required  name="search_text" id="dataInputText" placeholder="Search for something" autocomplete="off">
+              <input type="text" class="form-control" required  name="search_text" id="dataInputText" placeholder="Search for something relating to wines" autocomplete="off">
           </div>
           <button type="submit" class="btn btn-primary btn-block">Search</button>
       </form>
