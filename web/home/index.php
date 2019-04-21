@@ -62,7 +62,7 @@
                               <h4 class="header-title m-t-0 m-b-30">User Based Testing</h4>
 
                               <p class="text-muted m-b-15 font-15">
-                                  <center>Supply a single or a set of wine reviews and determine if they were positively or negatively said. </center>
+                                  <center>Supply a wine review and determine if it was positively or negatively said. </center>
                               </p>
                               <button type="button" class="btn btn-block btn-xs btn-purple waves-effect waves-light" onclick="location.href='try/testing.php';" >Try Now</button>
 
