@@ -10,7 +10,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
-  $.ajax({url: '<?php echo 'http://162.243.164.113/mongo_connect.php?term='.$_GET["search_text"]; ?>',
+  $.ajax({url: '<?php echo 'https://pothole.ml/php/mongo_connect.php?term='.$_GET["search_text"]; ?>',
   success: function(result){
     console.log(result);
     $('#results').val(result);

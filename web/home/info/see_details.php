@@ -4,7 +4,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
-  $.ajax({url: '<?php echo 'http://162.243.164.113/get_mongo_details.php?ID='.$_GET["id"]; ?>',
+  $.ajax({url: '<?php echo 'https://pothole.ml/php/get_mongo_details.php?ID='.$_GET["id"]; ?>',
   success: function(result){
     var resultArr = JSON.parse(result)[0];
     console.log(resultArr);
